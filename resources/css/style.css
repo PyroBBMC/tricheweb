@@ -2,18 +2,18 @@
 /* Basic setup */
 /* ----------------------------------- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: #fff;
-    color: #555;
-    font-family:'Lato', 'Arial', sans-serif; 
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 /* ----------------------------------- */
 /* Reusable Components */
@@ -22,144 +22,145 @@ html {
 /* ------ Headings ------- */
 
 .row {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-left: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 20px;
 }
 
 section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .box {
-    padding: 1%;
+  padding: 1%;
 }
 
 img {
-    display: inline-block;
-    width: 90%;
-    height: auto;
-    overflow: hidden;
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  overflow: hidden;
 }
 
-h1, h2, h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-    
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 250%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 250%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 h2 {
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 
 h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-    text-align: center;
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 h2:after {
-    display: block;
-    height: 2px;
-    background-color: #8e44ad;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
+  display: block;
+  height: 2px;
+  background-color: #8e44ad;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 /* ----- Paragraphs ------ */
 .desc {
-    line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
-    padding-bottom: 25px;
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 25px;
 }
 
 .sample-desc,
 .sample-desc-title {
-    padding: 0 15px;
-    color: #fff;
-    line-height: 145%;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 145%;
 }
 
 .sample-desc {
-    font-size: 90%;
+  font-size: 90%;
 }
 
 .sample-desc-title {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-.sample{
-    background-color: #8e44ad;
+.sample {
+  background-color: #8e44ad;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    transition: transform 1s;
+  width: 100%;
+  height: auto;
+  transition: transform 1s;
 }
 
 img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .box p {
-    font-size: 90%;
-    line-height: 145%;
+  font-size: 90%;
+  line-height: 145%;
 }
 
 /* ----- icons ------ */
 .icon-big {
-    margin: auto;
-    margin-bottom: 10px;
-    font-size: 300%;
-    display: block;
-    color: #8e44ad;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 300%;
+  display: block;
+  color: #8e44ad;
 }
 
 /* ------- buttons -------- */
 
 .btn:link,
 .btn:visited {
-    display: inline-block;
-    margin: 20px 5px;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-    transition: background-color 0.3s, border 0.3s, color 0.3s;
+  display: inline-block;
+  margin: 20px 5px;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn-contact:link,
 .btn-contact:visited {
-    background-color: #8e44ad;
-    border: 1px solid #8e44ad;
+  background-color: #8e44ad;
+  border: 1px solid #8e44ad;
 }
 
 .btn-show-me:link,
 .btn-show-me:visited {
-    border: 1px solid #8e44ad;
+  border: 1px solid #8e44ad;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #2f0840;
-    border-color: #2f0840;
+  background-color: #2f0840;
+  border-color: #2f0840;
 }
 
 /* ----------------------------------- */
@@ -167,54 +168,68 @@ img:hover {
 /* ----------------------------------- */
 
 header {
-    background-image: linear-gradient(#000, rgba(0, 0, 0, 0.308)), url(../css/img/macbook-abstract.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background-image: linear-gradient(#000, rgba(0, 0, 0, 0.308)),
+    url(../css/img/macbook-abstract.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .background-text-box {
-    position: absolute;
-    /* width: 1140px; */
-    top: 60%;
-    left: 50%;
-    transform: translate(-100%, -100%);
+  position: absolute;
+  /* width: 1140px; */
+  top: 60%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+}
+
+#nav-bar {
+  visibility: visible;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
 }
 
 .logo {
-    height: 100px;
-    margin-top: 20px;
-    width: auto;
-    float: left;
+  color: #8e44ad;
+  height: 100px;
+  margin-top: 20px;
+  width: auto;
+  float: left;
 }
 
 .main-nav {
-    float: right;
-    margin-top: 30px;
-    list-style: none;
+  float: right;
+  margin-top: 30px;
+  list-style: none;
 }
 
 .main-nav li {
-    display: inline-block;
-    margin-left: 40px;
+  display: inline-block;
+  margin-left: 40px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 8px 0;
-    color: #fff;
-    text-decoration: none;
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+  padding: 8px 0;
+  color: #8e44ad;
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #2f0840;
+  border-bottom: 2px solid #8e44ad;
 }
 
 #portfolio {
-    height: 100vh;
-    background-color: #000;
+  height: 100vh;
+  background-color: #000;
+}
+
+#services {
+  height: 100vh;
+  background-color: #000;
 }
