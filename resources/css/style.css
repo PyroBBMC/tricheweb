@@ -108,13 +108,13 @@ h2:after {
   background-color: #8e44ad;
 }
 
-img {
+.portfolio-img {
   width: 100%;
   height: auto;
   transition: transform 1s;
 }
 
-img:hover {
+.portfolio-img:hover {
   transform: scale(1.2);
 }
 
@@ -192,7 +192,7 @@ header {
 
 .logo {
   color: #8e44ad;
-  height: 100px;
+  height: 75px;
   margin-top: 20px;
   width: auto;
   float: left;
@@ -226,10 +226,10 @@ header {
 
 #portfolio {
   height: 100vh;
-  background-color: #000;
+  background-color: rgb(17, 16, 16);
 }
 
 #services {
   height: 100vh;
-  background-color: #000;
+  background-color: rgb(17, 16, 16);
 }
